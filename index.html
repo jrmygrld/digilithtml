@@ -1,0 +1,241 @@
+<html>
+    <head>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+  
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+            ['Day', 'Death'],
+            ['Sep 1',  88],
+            ['Sep 2',  111],
+            ['Sep 3',  134],
+            ['Sep 4',  82], 
+            ['Sep 5',  108],
+            ['Sep 6',  85],
+            ['Sep 7',  105],
+            ['Sep 8',  100],
+            ['Sep 9',  106],
+            ['Sep 10',  120],
+            ['Sep 11',  88],
+            ['Sep 12',  106],
+            ['Sep 13',  73],
+            ['Sep 14',  118],
+            ['Sep 15',  124],
+            ['Sep 16',  135],
+            ['Sep 17',  122],
+            ['Sep 18',  114],
+            ['Sep 19',  112],
+            ['Sep 20',  105],
+            ['Sep 21',  124],
+            ['Sep 22',  160],
+            ['Sep 23',  140],
+            ['Sep 24',  128],
+            ['Sep 25',  113],
+            ['Sep 26',  90],
+            ['Sep 27',  78],
+            ['Sep 28',  87],
+            ['Sep 29',  128],
+            ['Sep 30',  139],
+          ]);
+  
+          var options = {
+            title: 'Daily Death Cases in Indonesia',
+            legend: { position: 'bottom' }
+          };
+  
+          var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+  
+          chart.draw(data, options);
+        }
+      </script>
+    </head>
+    <body>
+        <h1>COVID-19 Daily Death Cases in September</h1>
+        <p>
+            Group member:
+            Aznan Jaya Putra
+            (001202000033),
+            Christopher Nathanael Abednego
+            (001202000081),
+            Jeremy Gerald Prawira
+            (001202000003),
+            Rafli Ersandy
+            (001202000111),
+            Markus Raja Sinabutar
+            (001202000038),
+            Muhammad Ari Sasmoko
+            (001202000147),
+            Muhammad Ilham Nur Anbiya
+            (001202000173),
+            Muhammad Hikam
+            (001202000125),
+            Nicholas Ardo Dja
+            (001202000006). 
+        </p>
+
+        <h2>Table and Graph Representation</h2>
+        <h3>Table</h3>
+	    </center>
+        <table border="4" cellpadding="5" cellspacing="5" width="50%">
+                <tr>
+                    <th> Date </th>
+                    <th> New Death </th>
+                    <th> Total Death </th>
+                </tr>
+                <tr>
+                    <th> 1 September 2020 </th>
+                    <td> 88 person</td>
+                    <td> 7505 person</td>
+                </tr>
+                <tr>
+                    <th> 2 September 2020 </th>
+                    <td> 111 person</td>
+                    <td> 7616 person</td>
+                </tr>
+                <tr>
+                    <th> 3 September 2020 </th>
+                    <td> 134 person</td>
+                    <td> 7750 person</td>
+                </tr>
+                <tr>
+                    <th> 4 September 2020 </th>
+                    <td> 82 person</td>
+                    <td> 7832 person</td>
+                </tr>
+                <tr>
+                    <th> 5 September 2020 </th>
+                    <td> 108 person</td>
+                    <td> 7940 person</td>
+                </tr>
+                <tr>
+                    <th> 6 September 2020 </th>
+                    <td> 85 person</td>
+                    <td> 8025 person</td>
+                </tr>
+                <tr>
+                    <th> 7 September 2020 </th>
+                    <td> 105 person</td>
+                    <td> 8130 person</td>
+                </tr>
+                <tr>
+                    <th> 8 September 2020 </th>
+                    <td> 100 person</td>
+                    <td> 8230 person</td>
+                </tr>
+                <tr>
+                    <th> 9 September 2020 </th>
+                    <td> 106 person</td>
+                    <td> 8336 person</td>
+                </tr>
+                <tr>
+                    <th> 10 September 2020 </th>
+                    <td> 120 person</td>
+                    <td> 8456 person</td>
+                </tr>
+                <tr>
+                    <th> 11 September 2020 </th>
+                    <td> 88 person</td>
+                    <td> 8544 person</td>
+                </tr>
+                <tr>
+                    <th> 12 September 2020 </th>
+                    <td> 106 person</td>
+                    <td> 8650 person</td>
+                </tr>
+                <tr>
+                    <th> 13 September 2020 </th>
+                    <td> 73 person</td>
+                    <td> 8723 person</td>
+                </tr>
+                <tr>
+                    <th> 14 September 2020 </th>
+                    <td> 118 person</td>
+                    <td> 8841 person</td>
+                </tr>
+                <tr>
+                    <th> 15 September 2020 </th>
+                    <td> 124 person</td>
+                    <td> 8965 person</td>
+                </tr>
+                <tr>
+                    <th> 16 September 2020 </th>
+                    <td> 135 person</td>
+                    <td> 9100 person</td>
+                </tr>
+                <tr>
+                    <th> 17 September 2020 </th>
+                    <td> 122 person</td>
+                    <td> 9222 person</td>
+                </tr>
+                <tr>
+                    <th> 18 September 2020 </th>
+                    <td> 114 person</td>
+                    <td> 9336 person</td>
+                </tr>
+                <tr>
+                    <th> 19 September 2020 </th>
+                    <td> 112 person</td>
+                    <td> 9448 person</td>
+                </tr>
+                <tr>
+                    <th> 20 September 2020 </th>
+                    <td> 105 person</td>
+                    <td> 9553 person</td>
+                </tr>
+                <tr>
+                    <th> 21 September 2020 </th>
+                    <td> 124 person</td>
+                    <td> 9677 person</td>
+                </tr>
+                <tr>
+                    <th> 22 September 2020 </th>
+                    <td> 160 person</td>
+                    <td> 9837 person</td>
+                </tr>
+                <tr>
+                    <th> 23 September 2020 </th>
+                    <td> 140 person</td>
+                    <td> 9977 person</td>
+                </tr>
+                <tr>
+                    <th> 24 September 2020 </th>
+                    <td> 128 person</td>
+                    <td> 10105 person</td>
+                </tr>
+                <tr>
+                    <th> 25 September 2020 </th>
+                    <td> 113 person</td>
+                    <td> 10218 person</td>
+                </tr>
+                <tr>
+                    <th> 26 September 2020 </th>
+                    <td> 90 person</td>
+                    <td> 10308 person</td>
+                </tr>
+                <tr>
+                    <th> 27 September 2020 </th>
+                    <td> 78 person</td>
+                    <td> 10386 person</td>
+                </tr>
+                <tr>
+                    <th> 28 September 2020 </th>
+                    <td> 87 person</td>
+                    <td> 10473 person</td>
+                </tr>
+                <tr>
+                    <th> 29 September 2020 </th>
+                    <td> 128 person</td>
+                    <td> 10601 person</td>
+                </tr>
+                <tr>
+                    <th> 30 September 2020 </th>
+                    <td> 139 person</td>
+                    <td> 10740 person</td>
+                </tr>
+            </table>
+        <h3>Graph</h3>
+        <div id="curve_chart" style="width: 900px; height: 500px"></div>
+    </body>
+  </html>
